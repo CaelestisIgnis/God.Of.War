@@ -23,7 +23,6 @@
     align-items: center;
     height: 100%;
     width: 5%;
-    border: 3px solid red;
 }
 
 .studio img{
@@ -35,14 +34,12 @@
 
 .title {
     color: snow;
-    border: 3px solid red;
     text-shadow: 2px 2px black;
     font-size: xx-large;
 }
 
 .icon {
     display: flex;
-    border: 3px solid red;
     align-items: center;
     height: 100%;
     width: 5%;
