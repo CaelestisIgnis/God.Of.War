@@ -5,17 +5,25 @@
     justify-content: center;
     top: 0;
     left: 0;
+    align-items: center;
     background-color: none;
-    height: 8vh;
+    height: 12vh;
+    transition: 0.75s;
+}
+
+.header:focus-within {
+    background-color: hsl(0, 0%, 8%);
+}
+
+.header:hover {
+    background-color: hsl(0, 0%, 8%);
 }
 
 .menu {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     height: 100%;
     width: 100%;
-    gap: 38%;
-    margin: 1%;
 }
 
 .studio {
@@ -26,14 +34,15 @@
 }
 
 .studio img{
-    height: 100vh;
     width: 100%;
-    filter: invert(100%);
+    filter: invert(90%);
     object-fit: contain;
 }
 
 .title {
+    display: flex;
     color: snow;
+    align-items: center;
     text-shadow: 2px 2px black;
     font-size: xx-large;
 }
@@ -46,15 +55,37 @@
 }
 
 .icon img{
-    height: 100vh;
-    width: 100%;
+    width: fit-content;
     object-fit: contain;
-    filter: invert(500%);
+    filter: invert(90%);
     -webkit-animation:spin 12s linear infinite;
 }
 
 @-webkit-keyframes spin { 
     100% { -webkit-transform: rotate(360deg); } 
+}
+
+.content {
+    position: absolute;
+    display: none;
+    color: snow;
+    text-shadow: 2px 2px black;
+    left: 0;
+    font-size: 140%;
+    width: 100%;
+    color: white;
+    top: 120%;
+}
+
+.content  ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 1%;
+}
+
+.icon:focus-within ~ .content {
+    display: block;
 }
 
 .container {
@@ -71,4 +102,9 @@
 .img {
     height: 100vh;
     width: 100%;
+}
+
+.hover:hover {
+    cursor: pointer;
+    filter: brightness(800%);
 }
