@@ -12,9 +12,9 @@
 .menu {
     display: flex;
     justify-content: center;
-    justify-content: space-between;
     height: 100%;
     width: 100%;
+    gap: 38%;
     margin: 1%;
 }
 
@@ -23,6 +23,7 @@
     align-items: center;
     height: 100%;
     width: 5%;
+    border: 3px solid red;
 }
 
 .studio img{
@@ -34,12 +35,14 @@
 
 .title {
     color: snow;
+    border: 3px solid red;
     text-shadow: 2px 2px black;
     font-size: xx-large;
 }
 
 .icon {
     display: flex;
+    border: 3px solid red;
     align-items: center;
     height: 100%;
     width: 5%;
