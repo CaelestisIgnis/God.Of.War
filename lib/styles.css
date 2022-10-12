@@ -5,6 +5,7 @@
     justify-content: center;
     top: 0;
     left: 0;
+    padding: 1%;
     align-items: center;
     background-color: none;
     height: 12vh;
@@ -20,6 +21,7 @@
 }
 
 .menu {
+    padding: 5%;
     display: flex;
     justify-content: space-between;
     height: 100%;
@@ -71,10 +73,10 @@
     color: snow;
     text-shadow: 2px 2px black;
     left: 0;
-    font-size: 140%;
+    font-size: 155%;
     width: 100%;
     color: white;
-    top: 120%;
+    top: 90%;
 }
 
 .content  ul {
@@ -86,6 +88,7 @@
 
 .icon:focus-within ~ .content {
     display: block;
+    background-color: hsl(0, 0%, 8%);
 }
 
 .container {
