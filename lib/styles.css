@@ -61,7 +61,6 @@
     height: 450%;
     width: 100%;
     object-fit: cover;
-    
 }
 
 .studio {
@@ -161,5 +160,151 @@
     overflow: hidden;
     display: flex;
     width: 100%;
-    top: 200%;
+    top: 0%;
+}
+
+.news {
+    padding: 2%;
+    text-shadow: 1px 1px black;
+    background-color: rgb(83, 83, 83);
+}
+
+.line-container {
+    border: 3px solid grey;
+    width: 100%;
+}
+
+.news-grid-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.news-grid-bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+.news-title {
+    font-size: 250%;    
+}
+
+.news-1 {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin-top: 1%;
+    background-color: rgb(61, 61, 61);
+}
+
+.news-1-text {
+    width: 25%;
+}
+
+.news-1 img {
+    width: 75%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.news-2 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-top: 1%;
+    margin-left: 2%;
+    background-color: rgb(61, 61, 61);
+}
+
+.news-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.news-3 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 80%;
+    background-color: rgb(61, 61, 61);
+}
+
+.news-3 img {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.news-4 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 80%;
+    margin-left: 2%;
+    background-color: rgb(61, 61, 61);
+}
+
+.news-4 img {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.news-5 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 80%;
+    margin-left: 2%;
+    background-color: rgb(61, 61, 61);
+}
+
+.news-5 img {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.news-6 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 80%;
+    margin-left: 2%;
+    background-color: rgb(61, 61, 61);
+}
+
+.news-6 img {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.news-type {
+    font-size: 160%;
+    padding: 1%;
+    color: darkgrey;
+}
+
+.news-title {
+    font-size: 200%;
+    padding: 1%;
+    color: rgb(210, 210, 210);
+}
+
+.news-body {
+    margin-top: 1%;
+    font-size: 110%;
+    padding: 1%;
+    color: darkgrey;
+}
+
+.hover-news:hover {
+    filter: brightness(105%);
+    border: 3px solid white;
 }
